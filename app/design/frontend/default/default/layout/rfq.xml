@@ -16,7 +16,7 @@
     </reference>
     <reference name="content">
       <block type="rfq/rfq" name="rfq">
-        <action method="setTemplate" ifconfig="catalog/rfq/enabled">
+        <action method="setTemplate" ifconfig="rfq/rfq/enabled">
           <template>rfq/rfq.phtml</template>
         </action>
         <block type="rfq/captcha" name="captcha">
