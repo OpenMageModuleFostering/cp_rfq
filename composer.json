@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/CP_Rfq",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Request For Quotation",
+    "authors": [
+    {
+        "name": "Commerce Pundit",
+        "email": "support@commercepundit.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,40 @@
+<!--@subject Quotation@-->
+<!--@vars
+{"var data.name":"Sender Name",
+"var data.email":"Sender Email",
+"var data.question":"Question"}
+@-->
+
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+<table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td valign="top">Name: </td>
+    <td valign="top">{{var data.name}}</td>
+  </tr>
+  <tr>
+    <td valign="top">E-mail: </td>
+    <td valign="top">{{var data.email}}</td>
+  </tr>
+  <tr>
+    <td valign="top">Company Name: </td>
+    <td valign="top">{{var data.company_name}}</td>
+  </tr>
+  <tr>
+    <td valign="top">Website name: </td>
+    <td valign="top">{{var data.website_name}}</td>
+  </tr>
+  <tr>
+    <td valign="top">Average monthly order: </td>
+    <td valign="top">{{var data.avg_order}}</td>
+  </tr>
+  <tr>
+    <td valign="top">Phone Number: </td>
+    <td valign="top">{{var data.phone_number}}</td>
+  </tr>
+  <tr>
+    <td valign="top">Question: </td>
+    <td valign="top">{{var data.question}}</td>
+  </tr>
+</table>
+{{template config_path="design/email/footer"}} 
