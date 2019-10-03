@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/CP_Rfq",
+    "name": "openmage-module-fostering\/cp_rfq",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Request For Quotation extension by Commerce Pundit will help you manage your Quotation submitted by User. ",
     "authors": [
