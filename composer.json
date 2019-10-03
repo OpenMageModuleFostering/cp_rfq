@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/CP_Rfq",
+    "name": "OpenMageModuleFostering\/CP_Rfq",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Request For Quotation extension by Commerce Pundit will help you manage your Quotation submitted by User. ",
     "authors": [
-    {
-        "name": "Commerce Pundit",
-        "email": "support@commercepundit.com"
-    }
-],
+        {
+            "name": "Commerce Pundit",
+            "email": "support@commercepundit.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
